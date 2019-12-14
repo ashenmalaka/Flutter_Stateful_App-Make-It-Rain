@@ -17,6 +17,20 @@ class MakeItRainState extends State<MakeItRain> {
         title: new Text("Make It Rain!"),
         backgroundColor: Colors.lightGreen,
         ),
+        body: new Container(
+          child: new Column(
+            children: <Widget>[
+              //title
+              new Text("Get Rich!",
+                style: new TextStyle(
+                  color: Colors.grey,
+                  fontWeight: FontWeight.w400,
+                  fontSize: 30,
+                ),
+              )
+            ],
+          ),
+        )
     );
   }
 
