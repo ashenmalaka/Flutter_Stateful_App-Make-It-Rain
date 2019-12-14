@@ -46,7 +46,11 @@ class MakeItRainState extends State<MakeItRain> {
                 new Expanded(
                   child: new Center(
                     child: new FlatButton(
-                      onPressed: null,
+                      color: Colors.lightGreen,
+                      textColor: Colors.white70,
+                      onPressed: (){
+                        return debugPrint("Clicked");
+                      },
                       child: new Text("Let It Rain!",
                         style: new TextStyle(
                           fontSize: 20
