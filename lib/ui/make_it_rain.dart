@@ -26,7 +26,7 @@ class MakeItRainState extends State<MakeItRain> {
                   style: new TextStyle(
                     color: Colors.grey,
                     fontWeight: FontWeight.w400,
-                    fontSize: 30,
+                    fontSize: 30
                 ),
                ),
               ),
@@ -49,7 +49,7 @@ class MakeItRainState extends State<MakeItRain> {
                       color: Colors.lightGreen,
                       textColor: Colors.white70,
                       onPressed: (){
-                        return debugPrint("Clicked");
+                        debugPrint("Clicked");
                       },
                       child: new Text("Let It Rain!",
                         style: new TextStyle(
