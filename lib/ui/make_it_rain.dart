@@ -41,7 +41,21 @@ class MakeItRainState extends State<MakeItRain> {
                     ),
                   ),
                 ),
-              )
+              ),
+
+                new Expanded(
+                  child: new Center(
+                    child: new FlatButton(
+                      onPressed: null,
+                      child: new Text("Let It Rain!",
+                        style: new TextStyle(
+                          fontSize: 20
+                        ),
+                      ),
+                    ),
+                  ),
+                )
+
             ],
           ),
         )
