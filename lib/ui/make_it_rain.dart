@@ -21,12 +21,14 @@ class MakeItRainState extends State<MakeItRain> {
           child: new Column(
             children: <Widget>[
               //title
-              new Text("Get Rich!",
+              new Center(
+                child: new Text("Get Rich!",
                 style: new TextStyle(
                   color: Colors.grey,
                   fontWeight: FontWeight.w400,
                   fontSize: 30,
                 ),
+               ),
               )
             ],
           ),
