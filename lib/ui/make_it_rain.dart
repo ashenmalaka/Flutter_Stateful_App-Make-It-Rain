@@ -43,7 +43,7 @@ class MakeItRainState extends State<MakeItRain> {
 
               new Expanded(
                 child: new Center(
-                  child: new Text("$_moneyCounter",
+                  child: new Text("\$$_moneyCounter",
                     style: new TextStyle(
                       color: Colors.greenAccent,
                       fontSize: 45,
