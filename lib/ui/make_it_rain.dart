@@ -60,6 +60,7 @@ class MakeItRainState extends State<MakeItRain> {
                       textColor: Colors.white70,
                       onPressed: (){
                         debugPrint("Clicked");
+                        _rainMoney();
                       },
                       child: new Text("Let It Rain!",
                         style: new TextStyle(
