@@ -9,6 +9,16 @@ class MakeItRain extends StatefulWidget {
 }
     
 class MakeItRainState extends State<MakeItRain> {
+
+  int _moneyCounter = 0;
+
+  void _rainMoney() {
+    //Important - setState is called each time we need to update the UI
+    setState(() {
+      _moneyCounter = _moneyCounter + 100;
+    });
+  }
+
   @override
   Widget build(BuildContext context) {
   
@@ -33,7 +43,7 @@ class MakeItRainState extends State<MakeItRain> {
 
               new Expanded(
                 child: new Center(
-                  child: new Text("Money!",
+                  child: new Text("$_moneyCounter",
                     style: new TextStyle(
                       color: Colors.greenAccent,
                       fontSize: 45,
